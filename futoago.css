@@ -37,6 +37,21 @@ header {
     top: -30px;
     left: 130px;
 }
+.fa {
+    display: none; 
+  }
+@media(max-width:670px) {
+    .header-list a {
+      display: none;
+    }
+    .fa {
+        font-size: 22px;
+        display: block;
+        float: right;
+        padding: 5px 20px 5px 5px;
+        color: rgb(59, 100, 51);
+    }
+}
 a:hover {
     opacity: 0.8;
 }
@@ -44,26 +59,30 @@ a:hover {
     background-size: cover;
     width: 100%;
     padding-top: 0;
-    text-align:center;
 }
 * {
     box-sizing: border-box;
 }
 .lessons img {
+    max-width: 500px;
     width: 100%;
-    height: 100%;
-    margin-left:25vw;
+    height: auto;
+    position: relative;
+    top: -60px;
 }
 h1 {
     color: rgb(218, 133, 64);
     background-color: antiquewhite;
     width:fit-content;
     border-radius: 10px;
-    padding: 5px;
-    margin-left: 50vw;
+    position: relative;
+    top: -110px;
+    left: 10px;
 }
 .lessons p {
-    margin-left: 50vw;
     color: rgb(152, 141, 56);
+    position: relative;
+    top: -110px;
+    left: 10px;
 }
 
