@@ -37,6 +37,21 @@ header {
     top: -30px;
     left: 130px;
 }
+.fa {
+    display: none; 
+  }
+@media(max-width:670px) {
+    .header-list a {
+      display: none;
+    }
+    .fa {
+        font-size: 22px;
+        display: block;
+        float: right;
+        padding: 5px 20px 5px 5px;
+        color: rgb(59, 100, 51);
+    }
+}
 a:hover {
     opacity: 0.8;
 }
