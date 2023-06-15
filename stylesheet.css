@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 a {
     text-decoration: none;
   }
@@ -40,42 +43,43 @@ header {
 .fa {
     display: none; 
   }
-@media(max-width:670px) {
-    .header-list a {
-      display: none;
-    }
-    .fa {
-        font-size: 22px;
-        display: block;
-        float: right;
-        padding: 5px 20px 5px 5px;
-        color: rgb(59, 100, 51);
-    }
-}
+
 a:hover {
     opacity: 0.8;
 }
-ul {
-    display: flex;
-}
-.lessons {
+.pets {
     width: 100%;
-    height: 1000px;
-    padding-top: 20px;
-    background-image: url(https://www.pakutaso.com/shared/img/thumb/PAK72_greennohikari20141129223847_TP_V.jpg);
-    background-size: cover;
+    height: 100%;
+    padding-top: 5em;
 }
-    * {
-    box-sizing: border-box;
+.pet {
+    float: left;
 }
-.lesson img {
-    max-width: 400px;
-    width: 100%;
-    height: auto;
+.jyo img {
+    width: 10vw;
+    height: 10vw;
     position: relative;
     right: 20px;
 }
-.lesson p {
+.miyako img {
+    width: 20vw;
+    height: 10vw;
+    position: relative;
+    left: 0.6em;
+}
+.hechi img {
+    width: 12vw;
+    height: 10vw;
+    position: relative;
+    left: 0.6em;
+}
+.ao img {
+    width: 20vw;
+    height: 10vw;
+    position: relative;
+    left: 0.6em;
+}
+.pet p {
     padding:0;
     width: 80%;
     height: auto;
@@ -88,9 +92,4 @@ ul {
     text-align: center;
     border-radius: 15px;
     opacity: 0.8;
-}
-@media(min-width:670px) {
-    .lesson p {
-        font-size: 25px;
-}
 }
