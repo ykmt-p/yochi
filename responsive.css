@@ -1,0 +1,32 @@
+@media(max-width:670px) {
+    .header-list a {
+      display: none;
+    }
+    .fa {
+        font-size: 22px;
+        display: block;
+        float: right;
+        padding: 5px 20px 5px 5px;
+        color: rgb(59, 100, 51);
+    }
+    .jyo img {
+        width: 70%;
+        height: auto;
+    }
+    .miyako img {
+        width: 70%;
+        height: auto;
+    }
+    .hechi img {
+        width: 70%;
+        height: auto;
+    }
+    .ao img {
+        width: 70%;
+        height: auto;
+    }
+    .pet p {
+        font-size: 3.5vw;
+        width: 70%;
+}
+}
