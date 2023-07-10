@@ -4,92 +4,11 @@
 a {
     text-decoration: none;
   }
-body {
-    font-family: "Nico Moji"; 
-    width:100vw;
-    margin: 0;
-}    
 li {
     list-style: none;
     float: left;
     padding-left: 15px;
 }
-header {
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    height: 30px;
-    background-color:#df7d4cb0;
-    z-index: 10;
-}
-.header-logo {    
-    font-size:18px;
-    color: #df7d4cfa;
-    letter-spacing: 5px;
-    padding: 1px 8px;
-    width: fit-content;
-    margin: 15px;
-    border-radius: 4px;
-    background-color: rgba(59, 100, 51, 0.604);
-    position: relative;
-    top: 5px;
-}
-.header-list a {
-    color: rgb(59, 100, 51);
-    position: relative;
-    top: -30px;
-    left: 130px;
-}
-.fa {
-    display: none; 
-  }
-
-a:hover {
-    opacity: 0.8;
-}
-.pets {
-    width: 100%;
-    height: 100%;
-    padding-top: 5em;
-}
-.pet {
-    float: left;
-}
-.jyo img {
-    width: 10vw;
-    height: 10vw;
-    position: relative;
-    right: 20px;
-}
-.miyako img {
-    width: 20vw;
-    height: 10vw;
-    position: relative;
-    left: 0.6em;
-}
-.hechi img {
-    width: 12vw;
-    height: 10vw;
-    position: relative;
-    left: 0.6em;
-}
-.ao img {
-    width: 20vw;
-    height: 10vw;
-    position: relative;
-    left: 0.6em;
-}
-.pet p {
-    padding:0;
-    width: 80%;
-    height: auto;
-    color: rgb(218, 133, 64);
-    background-color: #c7e589;
-    font-size: 18px;
-    position: relative;
-    top: -70px;
-    left: 15px;
-    text-align: center;
-    border-radius: 15px;
-    opacity: 0.8;
+main container {
+    display: flex;
 }
