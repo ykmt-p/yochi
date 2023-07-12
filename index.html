@@ -7,7 +7,8 @@
     <mete name=“keywords” content=“献立,朝食,昼食,夕食,ランチ,ディナー,ごはん” />
    <mete name=“description” content=“食事記録” />
      <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="responsive.css">
+     <link rel="stylesheet" href="responsive.css">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
   </head>
   <body>
     <header>
@@ -17,31 +18,23 @@
           <ul>
             <li><a href="index.html">HOME</a></li>
             <li><a href="#">ABOUT</a></li>
-            <li><input type="text">検索</li>
+            <li><form action="https://ykmt-p.github.io/yochi/" method="post">
+              <input type="search" name="search" placeholder="キーワードを入力">
+              <input type="submit" name="submit" value="検索" disabled>
+              </form>
+              
+            </li>
           </ul>
         </nav>
       </div>
       <!-- menubar -->
     </header>
     <main>
-      <div class="container"></div>
-      <dl>
-        <dd>2023.07.07</dd>
-        <dt>七夕ごはん</dt>
-        <dd>2023.07.06</dd>
-        <dt>麻婆茄子</dt>
-        <dd>2023.07.05</dd>
-        <dt>ぷりぷり中華炒め</dt>
-        <dd></dd>
-        <dt></dt>
-        <dd></dd>
-        <dt></dt>
-        <dd></dd>
-        <dt></dt>
-        <dd></dd>
-        <dt></dt>
-      </dl>
-      <!-- container -->
+      <form action="https://ykmt-p.github.io/yochi/" method="post" enctype="multipart/form-data">
+      <input type="file" name="test" accept="image/*" multiple>
+      <input type="submit" value="投稿する"> 
+      </form>
+      <iframe name="form_response" style="display: none;"></iframe>
     </main>
   </body>
 </html>
